@@ -312,3 +312,9 @@ a { color: #F1583A }
 div.text-justify p {
   text-align: justify;
 }
+
+div.text-justify img {
+  float: left;
+  width: 100%;
+  padding: 40px;
+}
