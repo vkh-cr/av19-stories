@@ -1164,7 +1164,8 @@ div.text-justify img {
   padding: 40px;
 }
 
-.article p {
+.article p,
+div.article {
   font-family: 'Noto Serif', serif;
   font-weight: 400;
   font-size: 1.2rem;
@@ -1188,6 +1189,14 @@ p.question {
   text-align: none;
 }
 
+.sidebar-box {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8em;
+  color: #333;
+}
+
 blockquote {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
@@ -1202,4 +1211,12 @@ blockquote::before {
 
 blockquote::after {
   content: "“";
+}
+
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5 {
+  font-family: 'Montserrat', sans-serif;
 }
