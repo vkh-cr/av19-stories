@@ -1220,3 +1220,9 @@ blockquote::after {
 .article h5 {
   font-family: 'Montserrat', sans-serif;
 }
+
+.top-border {
+  border-top: 3px solid #58588c;
+  padding-top: 1.2em;
+  margin-top: 3.4em !important;
+}
