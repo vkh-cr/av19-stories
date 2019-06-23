@@ -278,6 +278,7 @@ a:focus {
 .intro {
   height: 72vh;
   min-height: 700px;
+  padding-bottom: 100px;
 }
 
 .templateux-hero h1,
